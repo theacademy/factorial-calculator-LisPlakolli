@@ -41,11 +41,14 @@ public class Factorial {
 				this.num = input;
 				return input;
 			}
+
+			this.printStream.print("Invalid entry. Please enter an integer between 1 and 10, inclusive.");
+			return -1;
+
 		} catch (Exception e){
-			this.printStream.print("Invalid input, please enter an integer between 1 and 10.");
+			this.printStream.print("Invalid entry. Please enter an integer between 1 and 10, inclusive.");
 			return -1;
 		}
-			return -1;
 		//YOUR CODE ENDS HERE
 	 }
 	
