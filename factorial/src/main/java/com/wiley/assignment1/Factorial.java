@@ -37,7 +37,7 @@ public class Factorial {
 		try{
 			int input = this.scanner.nextInt();
 
-			if(input >= 1 || input <= 10){
+			if(input >= 1 && input <= 10){
 				this.num = input;
 				return input;
 			}
